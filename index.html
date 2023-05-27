@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+         
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="letra_A_Vector.png" alt="logo">
+            </div> 
+            <h1 class="titulo">Encriptador</h1>
+        </header>
+        <main>
+            <div class="contenedor_area_ppal">
+                <section class="area1">
+                    <div class="contenedor_area_texto">
+                        <textarea class="area_texto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                    </div>
+                    <div class="frame1">
+                        <img src="exclamacion.png" id="exclamacion" alt="exclamación">
+                        <p id="aviso">Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <div class="frame3">
+                        <button type="button" class="boton_encriptar">Botón Encriptar</button>
+                        <button type="button" class="boton_desencriptar">Botón Desencriptar</button>                       
+                    </div>
+                </section>
+                <section class="area2">
+                    <div class="contenedor_resultado">
+                        <textarea class="resultado" cols="20" rows="10"></textarea>
+                        <img src="Muñeco.png" class="no_encontrado" alt="No encontrado">
+                        <div class="contenedor_texto">
+                            <p class="primer_parrafo">Ningún mensaje fue encontrado</p>
+                            <p class="segundo_parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+                        </div>
+                    </div>
+                    <div class="contenedor_boton_copiar">
+                        <button class="copiar">Copiar</button>
+                    </div> 
+                    
+                    
+                </section>
+            </div>         
+        </main>
+        <footer>
+            <div class="contenedor_redes_sociales">
+                <div class="redes_sociales_links">
+                    <a href="https://github.com/camilo-cloud" target="_blank">
+                        <img src="github.png" alt="github icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/camilo-cuartas-dev/" target="_blank">
+                     <img src="linkedin.png" alt="linkedin logo">
+                    </a>           
+                </div>
+            </div>
+            <p id="mi_nombre">copyright © 2023 - Camilo Cuartas</p>
+        </footer>
+    </body>
+<script src="index.js"></script>
+
+</html>
